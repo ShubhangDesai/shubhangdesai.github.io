@@ -241,22 +241,22 @@ body {
 }
 
 .exp-item .left {
-  width: 50%;
+  width: 25%;
   justify-content: center;
   align-items: center;
 }
 
 .exp-item .left img {
-  transform: scale(1, 1);
+  transform: scale(0.5, 0.5);
   transition: all 0.3s;
 }
 
 .exp-item:hover > .left > img {
-  transform: scale(1.1, 1.1);
+  transform: scale(0.6, 0.6);
 }
 
 .exp-item .right {
-  width: 50%;
+  width: 75%;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
@@ -272,7 +272,7 @@ body {
 .exp-item .point {
   display: flex;
   flex-direction: row;
-  margin-left: -10px;
+  margin-left: -8px;
 }
 
 .point span {
@@ -298,14 +298,14 @@ body {
   font-size: 20px;
   line-height: 1.5em;
 
-  width: 75%;
+  width: 90%;
 }
 
 .circle {
   border: 2px solid;
   border-radius: 10px;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   z-index: 2;
   background: #fdfdfd;
 
